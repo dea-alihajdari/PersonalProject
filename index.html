@@ -1,95 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explore Travel Agency</title>
+        <link rel="icon" href="logo.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
 
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Gallery</a>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo1.png" alt="Explore Travel Logo" class="logo-image">
+                <h1>Explore Travel</h1>
+            </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <img src="img1.jpg" alt="Explore the world" class="hero-image">
+        <div class="hero-text">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Explore the world with our premium travel services.</p>
+            <a href="#services" class="btn">Our Services</a>
         </div>
-    </nav>
+    </section>
 
-
-    <div class="gallery-container">
-        <h1> Photo Gallery</h1>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="img1.jpg" alt="Image 1">
-                <div class="overlay">
-                    <div class="text">Image 1</div>
-                </div>
+    
+    <section id="services" class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="luxury-tour.jpg" alt="Luxury Tours" class="service-image">
+                <h3>Luxury Tours</h3>
+                <p>Experience the finest luxury tours across the world.</p>
             </div>
-            <div class="gallery-item">
-                <img src="img2.jpg" alt="Image 2">
-                <div class="overlay">
-                    <div class="text">Image 2</div>
-                </div>
+            <div class="service">
+                <img src="group-travel.jpg" alt="Group Travel" class="service-image">
+                <h3>Group Travel</h3>
+                <p>Perfect trips for friends, family, and corporate groups.</p>
             </div>
-            <div class="gallery-item">
-                <img src="img3.jpg" alt="Image 3">
-                <div class="overlay">
-                    <div class="text">Image 3</div>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="img4.jpg" alt="Image 4">
-                <div class="overlay">
-                    <div class="text">Image 4</div>
-                </div>
-            <div class="gallery-item">
-                <img src="img5.jpg" alt="Image 4">
-                <div class="overlay">
-              <div class="text">Image 4</div>
-            </div>
-            <div class="gallery-item">
-                <img src="img6.jpg" alt="Image 4">
-                 <div class="overlay">
-                 <div class="text">Image 4</div>
-            </div>
-            <div class="gallery-item">
-              <img src="img7.jpg" alt="Image 4">
-              <div class="overlay">
-              <div class="text">Image 4</div>
-            </div>
-            <div class="gallery-item">
-                <img src="img8.jpg" alt="Image 4">
-                <div class="overlay">
-                <div class="text">Image 4</div>
-                </div>
-            <div class="gallery-item">
-                <img src="img9.jpg" alt="Image 4">
-                <div class="overlay">
-                <div class="text">Image 4</div>
-            </div>
-            <div class="gallery-item">
-                <img src="img10.jpg" alt="Image 4">
-                <div class="overlay">
-                <div class="text">Image 4</div>
+            <div class="service">
+                <img src="custom-itinerary.jpg" alt="Custom Itineraries" class="service-image">
+                <h3>Custom Itineraries</h3>
+                <p>Tailored travel plans for your specific needs and interests.</p>
             </div>
         </div>
+    </section>
 
-    </div>
-</div>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Photo Gallery | All Rights Reserved</p>
-        </div>
+    
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have any questions? Feel free to reach out!</p>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br><br><br>
+    
+    <footer>
+        <p>&copy; 2024 Explore Travel. All rights reserved.</p>
     </footer>
 
 </body>
-
 </html>
